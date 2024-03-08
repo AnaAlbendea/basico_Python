@@ -1,4 +1,4 @@
-print()
+
 
 
 #calculadora con 4 metodos y parametros con enteros
@@ -22,5 +22,5 @@ cal=calculadora()
 cal2=calculadora()
 print("Resultado:",cal.suma(2,4))
 print("Resultado:",type(cal2.suma(2,4)))
-print("Resultado:",cal.multiplicacion())
-
+print("Resultado:",cal.multiplicacion(3.1,5.2))
+print("Resultado:",type(cal2.suma(3.1,5.2)))
