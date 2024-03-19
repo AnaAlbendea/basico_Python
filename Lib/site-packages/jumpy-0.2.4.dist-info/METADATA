@@ -1,0 +1,29 @@
+Metadata-Version: 2.0
+Name: jumpy
+Version: 0.2.4
+Summary: Numpy and nd4j interop
+Home-page: https://github.com/deeplearning4j/deeplearning4j.git
+Author: Adam Gibson
+Author-email: adam@skymind.io
+License: Apache
+Keywords: numpy jumpy java nd4j deeplearning4j
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Provides-Extra: tests
+Provides-Extra: visualize
+Requires-Dist: Cython
+Requires-Dist: numpy
+Requires-Dist: pyjnius
+Provides-Extra: tests
+Requires-Dist: mock; extra == 'tests'
+Requires-Dist: pytest; extra == 'tests'
+Requires-Dist: pytest-pep8; extra == 'tests'
+Provides-Extra: visualize
+Requires-Dist: pydot-ng; extra == 'visualize'
+
+Mapping of the numpy & nd4j array representations
+
+
